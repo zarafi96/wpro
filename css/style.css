@@ -1,0 +1,331 @@
+html{
+  font-family: "Gisha";
+  background: url(../img/bg.jpg) fixed;
+  background-size: cover;
+}
+
+body{
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  height: auto;
+  float: left;
+}
+
+#foot{
+  width: 98%;
+  height: auto;
+  background: #e0821d;
+  float: left;
+  padding: 1%;
+  text-align: center;
+}
+
+#foot h5{
+  margin: 0;
+  color: #fff;
+  font-weight: lighter;
+  font-style: italic;
+  text-decoration: underline dotted;
+  font-size: 15px;
+}
+
+#head{
+  width: 90%;
+  height: auto;
+  background-color: #e0821d;
+  float: left;
+  position: fixed;
+  z-index: 5;
+  box-shadow: 1px 2px 0px #000;
+}
+
+#head #logo{
+  width: 40%;
+  height: auto;
+  margin-left: 2%;
+  float: left;
+}
+
+#head #logo img{
+  height: 60px;
+  margin: 1%;
+}
+
+#head #menu{
+  width: 57%;
+  height: auto;
+  float: left;
+  margin-right: 1%;
+  margin-top: 1%;
+  font-size: 25px;
+}
+
+#head #menu ul{
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+}
+
+#head #menu li{
+  float: left;
+  position: relative;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#head #menu a{
+  text-decoration: none;
+  display: block;
+  height: auto;
+  width: auto;
+  color: #fff;
+  text-align: center;
+  padding: 6px 8px 7px 8px;
+  border-radius: 20px;
+}
+
+#head #menu a:hover{
+  background: #fff;
+  color: #043834;
+}
+
+#box{
+  width: 100%;
+  height: auto;
+  margin-top: 6.1%;
+  background-color: rgba(0, 0, 0, 0.5);
+  float: left;
+}
+
+#box #content{
+  width: 98%;
+  height: auto;
+  padding: 1%;
+  float: left;
+}
+
+#box #content #search{
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+#box #content #search input{
+  font-size: 35px;
+}
+
+#box #content h1{
+  color: #fff;
+  margin: 0;
+  font-size: 75px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+#box #content hr{
+  color: #fff;
+  border-style: solid;
+  width: 80%;
+  margin: 0;
+}
+
+#box #content #etalase{
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+#box #content #etalase img{
+  width: 245px;
+  border-style: dashed;
+  margin-bottom: 10px;
+  float: left;
+}
+
+
+#box #content #etalase ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: auto;
+  float: left;
+}
+
+#box #content #etalase li{
+  float: left;
+  width: auto;
+  list-style: none;
+  position: relative;
+  z-index: 1;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #e0821d;
+  border-style: dashed;
+  border-radius: 10px;
+  border-color: #fff;
+}
+
+#box #content #etalase hr{
+  border-style: solid;
+  border-color: #fff;
+  margin-bottom: 10px;
+}
+
+#box #content #etalase a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-style: italic;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#box #content #etalase a:hover{
+  color: #000;
+  background: #fff;
+  text-decoration: underline dotted;
+}
+
+#box #content #detail hr{
+  border-style: solid;
+  border-color: #fff;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#box #content #detail #pict{
+  width: auto;
+  background: #e0821d;
+  padding: 5px;
+  float: left;
+  border-radius: 10px;
+  border-style: dashed;
+  border-color: #fff;
+}
+
+#box #content #detail #pict h1{
+  font-size: 25px;
+  text-align: center;
+}
+
+#box #content #detail #pict img{
+  width: 350px;
+  border-style: dashed;
+  border-color: #fff;
+  margin-bottom: 10px;
+  float: left;
+}
+
+#box #content #detail #desc{
+  width: 64.5%;
+  padding: 10px;
+  float: left;
+  border-radius: 10px;
+  border-style: dashed;
+  border-color: #fff;
+  margin-left: 2%;
+}
+
+#box #content #detail #desc h1{
+  font-size: 45px;
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+}
+
+#box #content #detail #desc p{
+  text-align: justify;
+  font-size: 30px;
+  color: #fff;
+}
+
+#box #content #detail a{
+  text-decoration: none;
+  color: #fff;
+  padding: 3px;
+  border-radius: 10px;
+  font-size: 45px;
+  background: #e0821d;
+}
+
+#box #content #detail a:hover{
+  color: #000;
+  background: #fff;
+  }
+
+#contact a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 60px;
+}
+
+#contact a:hover{
+  text-decoration: underline dotted;
+  color: #fff;
+}
+
+#about{
+  width: 92%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+#about p{
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+}
+
+#order table{
+  color: #fff;
+  font-size: 30px;
+}
+
+#order input{
+  font-size: 30px;
+}
+
+#order img{
+  border-radius: 20px;
+  border-color: #fff;
+  border-style: dashed;
+}
+
+#order textarea{
+  font-size: 30px;
+  font-family: "Gisha";
+}
+
+#how{
+  width: 92%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+#how ol{
+  font-size: 40px;
+  color: #fff;
+}
+
+#how a{
+  color: #fff;
+  text-decoration: none;
+  font-style: italic;
+}
+
+#how a:hover{
+  text-decoration: underline;
+}

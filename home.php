@@ -10,7 +10,7 @@
     <div id="etalase">
     <ul>
       <?php
-        $q = mysql_query("SELECT * FROM product ORDER BY RAND() LIMIT 4");
+        $q = homeDisplay();
         while($row = mysql_fetch_array($q)){
           echo"<li><center>
 		          <img src='".$row['gambar']."'/>

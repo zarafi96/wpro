@@ -17,6 +17,33 @@
     </center>
     </form>
     </div>
-    products();
+    <?php
+      if(isset($_GET['search'])){
+        $q = search();
+      }else{
+        $q = product();
+        }
+        echo"
+        <div id='etalase'>
+        <ul>";
+            while($row = mysql_fetch_array($q)){
+              if($row['stok']>0){$ket = "Tersedia(".$row['stok'].")";}else{$ket = "Habis";}
+              echo"<li><center>
+                  <img src='".$row['gambar']."'/>
+                  <br/>
+                    ".$row['nama']."
+                    <br/>
+                     Rp. ".number_format($row['harga'], 0 , ',' , '.').",-
+                     <br/>
+                     Stok : ".$ket."
+                  <br/>
+                  <hr/>
+                     <a href='order.php?id=".$row['id']."'>Order</a>
+                     <a href='detail.php?id=".$row['id']."'>Detail</a>
+                     </center>";
+      }
+        echo"</ul>
+        </div>";
+    ?>
   </div>
 <?php include 'foot.php';?>

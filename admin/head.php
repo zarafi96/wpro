@@ -1,18 +1,26 @@
 <?php
-  include 'connect.php';
-  include 'function.php';
+  include '../connect.php';
+  session_start();
+  if(empty($_SESSION['user'])){
+  	header('Location: index.php');
+  }
+  if(!empty($_GET['logout'])){
+  	unset($_SESSION['user']);
+  	session_destroy();
+  	header('Location: index.php');
+  }
 ?>
 <html>
 <head>
-  <title>Zartoys | Toko Action Figure Online</title>
-  <link rel="shortcut icon" href="favicon.ico"/>
-  <link rel="stylesheet" href="css/style.css"/>
+  <title>Administrator | Zartoys</title>
+  <link rel="shortcut icon" href="../favicon.ico"/>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 
 <body>
 <div id="head">
   <div id="logo">
-    <img src="img/logo.png"/>
+    <img src="../img/logo.png"/>
   </div>
   <div id="menu">
     <ul>

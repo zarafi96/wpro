@@ -1,0 +1,151 @@
+html{
+  font-family: "Gisha";
+  background: url(../img/bg.jpg) fixed;
+  background-size: cover;
+}
+
+body{
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  height: auto;
+  float: left;
+}
+
+#foot{
+  width: 98%;
+  height: auto;
+  background: #e0821d;
+  float: left;
+  padding: 1%;
+  text-align: center;
+}
+
+#foot h5{
+  margin: 0;
+  color: #fff;
+  font-weight: lighter;
+  font-style: italic;
+  text-decoration: underline dotted;
+  font-size: 15px;
+}
+
+#head{
+  width: 90%;
+  height: auto;
+  background-color: #e0821d;
+  float: left;
+  position: fixed;
+  z-index: 5;
+  box-shadow: 1px 2px 0px #000;
+}
+
+#head h1{
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+}
+
+#head #logo{
+  width: 40%;
+  height: auto;
+  margin-left: 2%;
+  float: left;
+}
+
+#head #logo img{
+  height: 60px;
+  margin: 1%;
+}
+
+#head #menu{
+  width: 57%;
+  height: auto;
+  float: left;
+  margin-right: 1%;
+  margin-top: 1%;
+  font-size: 21px;
+}
+
+#head #menu ul{
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+}
+
+#head #menu li{
+  float: left;
+  position: relative;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#head #menu a{
+  text-decoration: none;
+  display: block;
+  height: auto;
+  width: auto;
+  color: #fff;
+  text-align: center;
+  padding: 6px 8px 7px 8px;
+  border-radius: 20px;
+}
+
+#head #menu a:hover{
+  background: #fff;
+  color: #043834;
+}
+
+#box{
+  width: 100%;
+  height: auto;
+  margin-top: 6.1%;
+  background-color: rgba(0, 0, 0, 0.5);
+  float: left;
+}
+
+#box #content{
+  width: 98%;
+  height: auto;
+  padding: 1%;
+  float: left;
+}
+
+#box #content h1{
+  color: #fff;
+  margin: 0;
+  font-size: 75px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+#box #content hr{
+  color: #fff;
+  border-style: solid;
+  width: 80%;
+  margin: 0;
+}
+
+#login{
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+}
+
+#login input{
+  font-size: 32px;
+}
+
+#login a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#login a:hover{
+  text-decoration: underline dotted;
+}

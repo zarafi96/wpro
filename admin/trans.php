@@ -8,21 +8,23 @@ include 'head.php';
 <center>
 <table border='1'>
 		<tr>
-			<th colspan='6'>Daftar Admin</th>
+			<th colspan='7'>Daftar Transfer</th>
 		</tr>
 		<tr>
 			<th>No</th>
-			<th>Username</th>
-			<th>Password</th>
-			<th>Nama Lgkp</th>
-			<th>Alamat</th>
-			<th>No HP</th>
+			<th>Order ID</th>
+			<th>Bank Asal</th>
+			<th>Atas Nama</th>
+			<th>Bank Tujuan</th>
+			<th>Nominal</th>
+			<th>Catatan</th>
 		</tr>
 
 		<?php
 		$i = 1;
-		$q = mysql_query("SELECT * FROM admin");
+		$q = mysql_query("SELECT * FROM `transfer`");
 		while($row = mysql_fetch_array($q)){
+
 			echo "<tr>";
 				echo "<td>$i</td>";
 				echo "<td>".$row[1]."</td>";
@@ -30,6 +32,7 @@ include 'head.php';
 				echo "<td>".$row[3]."</td>";
 				echo "<td>".$row[4]."</td>";
 				echo "<td>".$row[5]."</td>";
+				echo "<td>".$row[6]."</td>";
 			echo "</tr>";
 			$i++;
 		}

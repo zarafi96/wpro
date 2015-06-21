@@ -24,12 +24,9 @@
   </div>
   <div id="menu">
     <ul>
-      <li><a href="index.php">Home</a></li>
-      <li><a href="product.php">Products</a></li>
-      <li><a href="how.php">How To Buy</a></li>
-      <li><a href="transfer.php">Payment</a></li>
-      <li><a href="about.php">About</a></li>
-      <li><a href="contact.php">Contact</a></li>
+      <li><a href="dashboard.php">Dashboard</a></li>
+      <li><a href="order.php">Order</a></li>
+      <li><a href="trans.php">Transactions</a></li>
     </ul>
   </div>
 </div>

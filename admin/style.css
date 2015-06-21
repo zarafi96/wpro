@@ -118,9 +118,23 @@ body{
 #box #content h1{
   color: #fff;
   margin: 0;
-  font-size: 75px;
+  font-size: 32px;
   font-weight: lighter;
   font-style: italic;
+}
+
+#box #content a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+#box #content a:hover{
+  text-decoration: underline dotted;
+}
+
+#box #content table{
+  color: #fff;
 }
 
 #box #content hr{
